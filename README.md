@@ -3,7 +3,7 @@ Tools: Tableau Public, Python (pandas) for data cleaning Dataset: Diabetes 130-U
 
 Overview
 
-Hospital readmissions within 30 days are a key quality and cost metric in healthcare — they're tied to Medicare reimbursement penalties and are widely used as a proxy for gaps in care coordination and discharge planning. This project explores which patient and encounter-level factors are associated with 30-day readmission risk among diabetic patients, using a real, publicly available clinical dataset spanning 130 US hospitals from 1999–2008.
+Hospital readmissions within 30 days are a key quality and cost metric in healthcare; they're tied to Medicare reimbursement penalties and are widely used as a proxy for gaps in care coordination and discharge planning. This project explores which patient and encounter-level factors are associated with 30-day readmission risk among diabetic patients, using a real, publicly available clinical dataset spanning 130 US hospitals from 1999–2008.
 
 The Data
 
@@ -28,8 +28,8 @@ Key Findings
 
 Limitations & Next Steps
 
-This analysis is descriptive, not predictive — each factor (diagnosis, age, length of stay) was examined independently, so it isn't possible to say from these charts alone which factor matters most when the others are held constant. A natural next step would be a multivariate model (e.g., logistic regression) incorporating these and other variables — number of medications, prior emergency visits, chronic disease count — to identify the strongest independent predictors of readmission and better inform where hospital intervention resources would have the greatest impact.
+This analysis is descriptive, not predictive; each factor (diagnosis, age, length of stay) was examined independently, so it isn't possible to say from these charts alone which factor matters most when the others are held constant. A natural next step would be a multivariate model (e.g., logistic regression) incorporating these and other variables (number of medications, prior emergency visits, chronic disease count) to identify the strongest independent predictors of readmission and better inform where hospital intervention resources would have the greatest impact.
 
 About This Project
 
-This project was built as part of my transition into healthcare analytics, combining a biology background and clinical research experience with hands-on data cleaning, visualization, and analytical storytelling skills. It reflects the kind of question — what drives a key hospital quality metric, and where should limited intervention resources go — that population health and clinical data analyst roles are built around.
+This project was built as part of my transition into healthcare analytics, combining a biology background and clinical research experience with hands-on data cleaning, visualization, and analytical storytelling skills. It reflects the kind of question; "what drives a key hospital quality metric, and where should limited intervention resources go" that population health and clinical data analyst roles are built around.
