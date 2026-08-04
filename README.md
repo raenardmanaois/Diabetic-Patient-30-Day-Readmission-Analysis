@@ -17,6 +17,7 @@ Dropped the weight column, which was 97% missing and unusable.
 Preserved missingness as a meaningful category where clinically relevant — for example, missing lab results (A1Cresult, max_glu_serum) were recoded as "Not Tested" rather than dropped, since a missing result typically means the test wasn't ordered, not that data was lost.
 Mapped raw ICD-9 diagnosis codes into readable clinical categories (Diabetes, Circulatory, Respiratory, Injury, etc.) for interpretability.
 Created a simplified binary target variable, Readmitted_Within_30Days, from the original three-category readmission field, to focus specifically on the 30-day window most relevant to hospital quality metrics.
+
 Key Findings
 
 1. Diagnosis type matters — diabetes and injury carry the highest risk. Patients whose primary diagnosis was diabetes had the highest 30-day readmission rate of any category (~13%), followed closely by injury-related admissions (~12.5%). Categories like musculoskeletal and respiratory diagnoses showed the lowest readmission rates (~9.5–10%). This suggests that diagnosis complexity and the chronic, ongoing management diabetes requires may play a larger role in readmission risk than diagnosis category alone would suggest.
