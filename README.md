@@ -1,5 +1,6 @@
 # Diabetic-Patient-30-Day-Readmission-Analysis
-Tools: Tableau Public for data cleaning Dataset: Diabetes 130-US Hospitals for Years 1999-2008 (UCI Machine Learning Repository)
+Tools: Tableau Public 
+Dataset: Diabetes 130-US Hospitals for Years 1999-2008 (UCI Machine Learning Repository)
 
 Overview
 
@@ -26,10 +27,10 @@ Key Findings
 
 3. Length of stay shows the clearest relationship with readmission. Readmission risk climbed fairly steadily with length of stay, roughly doubling from ~8% for one-day stays to ~14–15% for stays of 8–10 days. This could reflect that longer stays are a marker of greater illness severity to begin with, or that extended hospitalization itself introduces additional risk (e.g., deconditioning, hospital-acquired complications). The data can't distinguish between these explanations on its own.
 
-Limitations & Next Steps
+Limitations and Next Steps
 
 This analysis is descriptive, not predictive; each factor (diagnosis, age, length of stay) was examined independently, so it isn't possible to say from these charts alone which factor matters most when the others are held constant. A natural next step would be a multivariate model (e.g., logistic regression) incorporating these and other variables (number of medications, prior emergency visits, chronic disease count) to identify the strongest independent predictors of readmission and better inform where hospital intervention resources would have the greatest impact.
 
 About This Project
 
-This project was built as part of my transition into healthcare analytics, combining a biology background and clinical research experience with hands-on data cleaning, visualization, and analytical storytelling skills. It reflects the kind of question; "what drives a key hospital quality metric, and where should limited intervention resources go" that population health and clinical data analyst roles are built around.
+This project was built as part of my transition into healthcare analytics, combining a biology background, GCP certification, and clinical shadowing experience with hands-on data cleaning, visualization, and analytical storytelling skills. It reflects the kind of question — "what drives a key hospital quality metric, and where should limited intervention resources go" — that population health and clinical data analyst roles are built around.
