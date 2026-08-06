@@ -1,5 +1,5 @@
 # Diabetic-Patient-30-Day-Readmission-Analysis
-Tools: Tableau Public 
+Tools: Tableau Public, SQLite (SQL)
 Dataset: Diabetes 130-US Hospitals for Years 1999-2008 (UCI Machine Learning Repository)
 Link: https://public.tableau.com/views/DiabeticPatient30-DayReadmissionAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
