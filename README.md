@@ -35,3 +35,5 @@ This analysis is descriptive, not predictive; each factor (diagnosis, age, lengt
 About This Project
 
 This project was built as part of my transition into healthcare analytics, combining a biology background, GCP certification, and clinical shadowing experience with hands-on data cleaning, visualization, and analytical storytelling skills. It reflects the kind of question — "what drives a key hospital quality metric, and where should limited intervention resources go" — that population health and clinical data analyst roles are built around.
+
+<img width="1033" height="829" alt="Screenshot 2026-08-06 at 2 52 57 PM" src="https://github.com/user-attachments/assets/56fceefb-70ba-49a6-847e-364bf1d7fb6b" />
